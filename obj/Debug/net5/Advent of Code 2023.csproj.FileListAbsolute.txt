@@ -73,3 +73,4 @@ C:\Users\NOEL\Desktop\Advent_of_Code_2023\Challenges\obj\Debug\net5\refint\Adven
 C:\Users\NOEL\Desktop\Advent_of_Code_2023\Challenges\obj\Debug\net5\Advent of Code 2023.pdb
 C:\Users\NOEL\Desktop\Advent_of_Code_2023\Challenges\obj\Debug\net5\Advent of Code 2023.genruntimeconfig.cache
 C:\Users\NOEL\Desktop\Advent_of_Code_2023\Challenges\obj\Debug\net5\ref\Advent of Code 2023.dll
+C:\Users\NOEL\Desktop\Advent_of_Code_2023\obj\Debug\net5\Advent of Code 2023.sourcelink.json
