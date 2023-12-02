@@ -4,8 +4,9 @@ using System.IO;
 
 namespace Advent_of_Code_2023
 {
-    class Day_1 {
-        static void Main(string[] args) {
+    public class Day_1 
+    {
+        public static void Start() {
             string filePath = "resources/LinesList_Day1.txt"; //path to text file containing all codes
             List<string> lines = new List<string>(File.ReadAllLines(filePath));
             // display answers
