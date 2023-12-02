@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NOEL\\Desktop\\Advent_of_Code_2023\\Challenges\\Advent of Code 2023.csproj",
+      "projectUniqueName": "C:\\Users\\NOEL\\Desktop\\Advent_of_Code_2023\\Advent of Code 2023.csproj",
       "projectName": "Advent of Code 2023",
-      "projectPath": "C:\\Users\\NOEL\\Desktop\\Advent_of_Code_2023\\Challenges\\Advent of Code 2023.csproj",
+      "projectPath": "C:\\Users\\NOEL\\Desktop\\Advent_of_Code_2023\\Advent of Code 2023.csproj",
       "packagesPath": "C:\\Users\\NOEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NOEL\\Desktop\\Advent_of_Code_2023\\Challenges\\obj\\",
+      "outputPath": "C:\\Users\\NOEL\\Desktop\\Advent_of_Code_2023\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

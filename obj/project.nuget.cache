@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OT3uyc28g3Pn3peY4ZkSFWT7bKSUXAQVa9DTWbVDfETFefqHXRlpbQrxExdUkgE7oD2r4Xv7bA+OxZYOf1mt1Q==",
+  "dgSpecHash": "uXTmEFZAWM+xlFTSVbR6YsH/BIkfW4VkUQeR6a4XMSsWSabBGXhP0u7BhVTXB1cbFlImLKX/MFLnIYnuuIybEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NOEL\\Desktop\\Advent_of_Code_2023\\Challenges\\Advent of Code 2023.csproj",
+  "projectFilePath": "C:\\Users\\NOEL\\Desktop\\Advent_of_Code_2023\\Advent of Code 2023.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NOEL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
