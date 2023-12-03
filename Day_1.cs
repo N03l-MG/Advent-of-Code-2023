@@ -7,7 +7,7 @@ namespace Advent_of_Code_2023
     public class Day_1 
     {
         public static void Start() {
-            string filePath = "resources/LinesList_Day1.txt"; //path to text file containing all codes
+            string filePath = "resources/1LinesList.txt"; //path to text file containing all codes
             List<string> lines = new List<string>(File.ReadAllLines(filePath));
             // display answers
             Console.WriteLine("Part 1: " + PartOne(lines));
@@ -15,7 +15,7 @@ namespace Advent_of_Code_2023
         }
         
         // solve part one
-        static int PartOne(List<string> lines) {
+        private static int PartOne(List<string> lines) {
             char firstDigit = '\0';
             char lastDigit = '\0';
             int finalAnswer = 0;
@@ -58,7 +58,7 @@ namespace Advent_of_Code_2023
         }
 
         // solve part two
-        static int PartTwo(List<string> lines) {
+        private static int PartTwo(List<string> lines) {
             // dict to indetify numbers within the lines
             Dictionary<string, int> numbers = new Dictionary<string, int> { 
                 {"one", 1},

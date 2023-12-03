@@ -7,14 +7,14 @@ namespace Advent_of_Code_2023
     public class Day_2
     {
         public static void Start() {
-            string filePath = "resources/GameResults_Day2.txt"; // filepath to save the games into a list 
+            string filePath = "resources/2GameResults.txt"; // filepath to save the games into a list 
             List<string> gamesList = new List<string>(File.ReadAllLines(filePath));
             // display answers
             Console.WriteLine("Part 1: " + PartOne(gamesList));
             Console.WriteLine("Part 2: " + PartTwo(gamesList));
         }
 
-        static int PartOne(List<string> games) {
+        private static int PartOne(List<string> games) {
             int finalAnswer = 0;
             // log the max ammount for each given colour
             Dictionary<string, int> maxColourValues = new Dictionary<string, int>{
@@ -51,7 +51,7 @@ namespace Advent_of_Code_2023
             return finalAnswer;
         }
 
-        static int PartTwo(List<string> games) {
+        private static int PartTwo(List<string> games) {
             int finalAnswer = 0;
 
             foreach (string game in games) // same process of looping through games, reveals and colour-value pairs as in Part 1
