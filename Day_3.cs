@@ -71,12 +71,8 @@ namespace Advent_of_Code_2023
         private static bool IsNumberAdjacentToSymbol(char[,] schematicXY, int x, int y) {
             int numCols = schematicXY.GetLength(0);
             int numRows = schematicXY.GetLength(1);
-            // another 2D array storing the translation vectors for all positions around the current coordinate in the main 2D array
-            int[,] neighborhoodOffsets = {
-                {-1, -1}, {0, -1}, {1, -1},
-                { -1, 0},          { 1, 0},
-                { -1, 1}, { 0, 1}, { 1, 1}
-            };
+            // gather the vectors around the current coordinate to find adjacent symbols
+            int[,] neighborhoodOffsets = TranslationVectors.vectors;
             // loop through these adjacent positions and check if there is a symbol
             for (int i = 0; i < neighborhoodOffsets.GetLength(0); i++)
             {
@@ -100,11 +96,7 @@ namespace Advent_of_Code_2023
             
             string previousFullNumber = "";
 
-            int[,] neighborhoodOffsets = {
-                {-1, -1}, {0, -1}, {1, -1},
-                { -1, 0},          { 1, 0},
-                { -1, 1}, { 0, 1}, { 1, 1}
-            };
+            int[,] neighborhoodOffsets = TranslationVectors.vectors;
             // loop through the coordinates in the 2D array until a * symbol is found
             for (int y = 0; y < numRows; y++)
             {
@@ -148,5 +140,14 @@ namespace Advent_of_Code_2023
             }
             return finalAnswer;
         }
+    }
+
+    public class TranslationVectors // class storing the translation vectors for all positions around the a coordinate in the main 2D array
+    {
+        public static int[,] vectors = {
+            {-1, -1}, {0, -1}, {1, -1},
+            { -1, 0},          { 1, 0},
+            { -1, 1}, { 0, 1}, { 1, 1}
+        };
     }
 } // please excuse the nesting catastrophe that this class is
