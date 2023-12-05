@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-
 namespace Advent_of_Code_2023
 {
     public class Day_3
