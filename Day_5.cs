@@ -94,12 +94,7 @@ namespace Advent_of_Code_2023
                 List<string> dataLines = section.Skip(1).ToList();
 
                 // convert data lines to a 2D array of integers
-                int maxLength = 0;
-                for (int i = 0; i < dataLines.Count; i++)
-                {
-                    long[] row = Array.ConvertAll(dataLines[i].Split(), long.Parse);
-                    maxLength = Math.Max(maxLength, row.Length);
-                }
+                int maxLength = 3;
                 long[,] dataArray = new long[dataLines.Count, maxLength];
                 // populate the arrays
                 for (int i = 0; i < dataLines.Count; i++)
