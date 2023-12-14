@@ -128,6 +128,7 @@ namespace Advent_of_Code_2023
                                     adjacentNumbers.Add(validFullNumber); // add the numbers adjacent to the * to the list
                                     previousFullNumber = fullNumber;
                                 }
+                                Console.WriteLine(fullNumber);
                             }
                         }
                         if (adjacentNumbers.Count == 2) { // if this list only has two entries it means this * only has two adjacent numbers to it and thus they multiplied

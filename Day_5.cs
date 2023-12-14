@@ -44,6 +44,7 @@ namespace Advent_of_Code_2023
                             continue;
                         }
                     }
+                    Console.WriteLine(conversionInput);
                 }
                 locationValues.Add(conversionInput);
             }

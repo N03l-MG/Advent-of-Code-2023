@@ -15,6 +15,7 @@ namespace Advent_of_Code_2023
             List<SpringRecord> parsedRecords = ParseInput(lines);
 
             Console.WriteLine(PartOne(parsedRecords));
+            Console.ReadLine();
         }
 
         private static int PartOne(List<SpringRecord> recordList) {
@@ -41,8 +42,8 @@ namespace Advent_of_Code_2023
             
             if (unknownBroken == 0 && unknownNormal == 0) {
                 List<int> contiguousGroups = springs.Split('.').Where(x => x != "").Select(x => x.Length).ToList();
-                    if (contiguousGroups.Count == groups.Count) {
-                        bool isValid = true;
+                if (contiguousGroups.Count == groups.Count) {
+                    bool isValid = true;
                     for (int i = 0; i < contiguousGroups.Count; i++)
                     {
                         if (contiguousGroups[i] != groups[i]) {

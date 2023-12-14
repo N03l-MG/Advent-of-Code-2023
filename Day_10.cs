@@ -62,6 +62,7 @@ namespace Advent_of_Code_2023
                 if (currentPipe != 'S') {
                     string[] currentPipeDir = pipeDirections[currentPipe];
                     directionHeaded = currentPipeDir.Where(d => d != OppositeDirection(directionHeaded)).First();
+                    Console.WriteLine(directionHeaded);
                 }
             } while (currentPipe != 'S');
 

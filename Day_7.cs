@@ -87,6 +87,7 @@ namespace Advent_of_Code_2023
             for (int i = 0; i < sortedList.Count; i++)
             {
                 sortedList[i] = new KeyValuePair<int, int>(sortedList[i].Key, i + 1);
+                Console.WriteLine(sortedList[i]);
                 bidRankDict.Add(sortedList[i].Key, sortedList[i].Value);
             }
 
