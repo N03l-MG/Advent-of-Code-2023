@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
-using System.Transactions;
 
 namespace Advent_of_Code_2023
 {
@@ -58,7 +57,7 @@ namespace Advent_of_Code_2023
                 }
                 //Print(rockMap);
             }
-
+            
             int finalAnswer = 0;
             int weight = 0;
             for (int i = rockMap.Count - 1; i >= 0; i--)

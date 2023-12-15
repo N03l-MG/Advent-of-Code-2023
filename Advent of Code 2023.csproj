@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
     <RootNamespace>Advent_of_Code_2023</RootNamespace>
   </PropertyGroup>
