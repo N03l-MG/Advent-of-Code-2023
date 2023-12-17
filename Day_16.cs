@@ -115,7 +115,6 @@ namespace Advent_of_Code_2023
                 List<char> line = new List<char>(chars);
                 mirrorMap.Add(line);
             }
-
             return mirrorMap;
         }
 
