@@ -124,7 +124,6 @@ namespace Advent_of_Code_2023
             Console.WriteLine();
             foreach (Dictionary<char, int> xmasVals in partsList)
             {
-                
                 Console.Write(xmasVals['x'] + " " + xmasVals['m'] + " " + xmasVals['a'] + " " + xmasVals['s']);
                 Console.WriteLine();
             }
